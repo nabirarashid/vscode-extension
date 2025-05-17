@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 # vscode-extension
 a test for code snippets using extensions for our jamhacks project !
-=======
-# testing README
-
-This is the README for your extension "testing". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
