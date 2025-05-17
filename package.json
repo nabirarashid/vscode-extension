@@ -1,0 +1,29 @@
+{
+  "name": "my-snippet-extension",
+  "displayName": "Snippet Test",
+  "description": "A test extension for inserting text",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "activationEvents": ["onLanguage:javascript"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "your-extension.helloWorld",
+        "title": "Insert Hello Snippet"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+     "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "typescript": "^5.0.0",
+    "tslint": "^6.0.0"
+  }
+}
+
